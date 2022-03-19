@@ -1,0 +1,26 @@
+.cart button {
+  border: none;
+  display: flex;
+  width: 164px;
+  height: 62px;
+  outline: none;
+  outline-offset: 0;
+  cursor: pointer;
+  background: #34b1da;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 1440px) {
+  .cart button {
+    width: 128px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart button {
+    height: 50px;
+  }
+}

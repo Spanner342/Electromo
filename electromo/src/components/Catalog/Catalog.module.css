@@ -1,0 +1,49 @@
+.catalog {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.catalog .cLine {
+  padding: 0 2%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.catalog .cLine .cBtn {
+  display: flex;
+}
+
+.catalog .cLine .cBtnRight,
+.cBtnLeft {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background-image: url(../../assets/img/arrowBlack.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.catalog .cLine button img {
+  display: block;
+}
+
+.catalog .cLine .cBtnLeft {
+  transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+.catalog .cList {
+  margin-top: 30px;
+  display: flex;
+  transition: 0.4s;
+}

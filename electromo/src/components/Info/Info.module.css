@@ -1,0 +1,90 @@
+.info {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #f2f2f2;
+  display: flex;
+}
+
+.info .iLeft {
+  width: 20%;
+  padding: 10% 5%;
+}
+
+.info .iLeft h3 {
+  color: #34b1da;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info .iLeft p {
+  color: #838383;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.info .iLeft a {
+  padding: 4% 8%;
+  font-size: 14px;
+  color: white;
+  background-color: #464646;
+  border-radius: 4px;
+  outline: none;
+  outline-offset: 0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+}
+
+.info .iRight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+}
+
+.info .iRight .bcg {
+  display: block;
+  height: 100%;
+}
+
+/* .info .iRight .btnRight,
+.btnLeft {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  background-image: url(../../assets/img/arrowBlack.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info .iRight .btnRight {
+  bottom: 20px;
+  right: 0;
+}
+
+.info .iRight .btnLeft {
+  bottom: 20px;
+  right: 25px;
+  transform: rotate(180deg);
+} */
+
+@media (max-width: 1024px) {
+  .info .iLeft h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info .iLeft h3 {
+    font-size: 22px;
+  }
+}

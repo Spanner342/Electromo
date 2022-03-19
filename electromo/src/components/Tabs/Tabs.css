@@ -1,0 +1,63 @@
+.tabs-container {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+
+.bloc-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.bloc-tabs :not(:first-child) {
+  border-top: 1px solid #eee;
+}
+.bloc-tabs :last-child {
+  border-bottom: 1px solid #eee;
+}
+
+.tabs {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  box-sizing: content-box;
+  outline: none;
+  background-color: white;
+}
+
+.active-tabs {
+  border-right: 1px solid transparent;
+  color: #34b1da;
+  z-index: 99;
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  width: 80%;
+}
+
+.content {
+  width: 100%;
+  min-height: 300px;
+  display: none;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.content p {
+  padding: 2% 0;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  color: #888;
+}
+.active-content {
+  display: block;
+}

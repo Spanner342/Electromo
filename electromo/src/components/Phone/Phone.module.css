@@ -1,0 +1,22 @@
+.phone img {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.phone span {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media (max-width: 1024px) {
+  .phone span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .phone span {
+    font-size: 14px;
+  }
+}

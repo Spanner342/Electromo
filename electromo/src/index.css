@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.cartBtn {
+  background-color: #34b1da;
+  background-image: url(../src/assets/img/cartbtn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.added {
+  background-color: #464646;
+}

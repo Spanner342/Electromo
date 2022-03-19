@@ -1,0 +1,89 @@
+.supply {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.supply .supplyItem {
+  background: #f2f2f2;
+  width: 28%;
+  padding: 2%;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.supplyInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.supply a {
+  font-size: 14px;
+  color: black;
+  outline: none;
+  outline-offset: 0;
+  cursor: pointer;
+  border: 0;
+}
+
+.supply h2,
+h6,
+h4 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.supply h6 {
+  color: white;
+}
+
+.supply h5 {
+  font-size: 24px;
+  color: #34b1da;
+}
+
+.supply .bcgImg {
+  overflow: hidden;
+}
+
+.supply :nth-of-type(2) {
+  background-color: #34b1da;
+}
+
+@media (max-width: 1024px) {
+  .supply {
+    flex-direction: column;
+  }
+
+  .supplyItem {
+    width: 100%;
+    min-height: 352.55px;
+    justify-content: space-between;
+    padding: 0 0;
+  }
+
+  .supplyInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 24;
+    padding: 10% 5%;
+  }
+
+  .supply .bcgImg {
+    overflow: hidden;
+    width: 70%;
+  }
+
+  .supply h6 {
+    width: 40%;
+    padding: 10% 5%;
+  }
+}

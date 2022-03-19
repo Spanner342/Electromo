@@ -1,0 +1,26 @@
+.cat {
+  padding: 16px 14px;
+  background: #34b1da;
+  font-size: 19px;
+  display: flex;
+  line-height: 24px;
+  text-transform: capitalize;
+  min-height: 30px;
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  width: 242px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .cat {
+    width: 192px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cat {
+    padding: 10px 8px;
+  }
+} ;
