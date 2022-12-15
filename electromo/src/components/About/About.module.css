@@ -1,0 +1,68 @@
+.about {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.about .bar {
+    border: 1px solid #eee;
+    padding: 1% 1%;
+    color: #888;
+  }
+  
+  .about .bar img {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .about .bar .barArrow,
+  .barName {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .about .bar .barName {
+    font-size: 12px;
+  }
+  
+  .about .bar a {
+    text-decoration: none;
+    color: #888;
+  }
+
+  .about .aboutPage {
+    display: flex;
+    margin-top: 35px;
+  }
+
+  .about .aboutPage .aboutItem{
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .about .aboutPage .aboutItem h3 {
+    margin-top: 20px;
+    color: #3d454c;
+    line-height: normal;
+    font-weight: 400;
+  }
+
+  .about .aboutPage .aboutItem p {
+    margin-top: 20px;
+    color: #888;
+  }
+
+  .about .aboutPage .aboutItem .photo {
+    overflow: hidden;
+  }
+
+  .about .aboutPage .aboutItem img {
+    transition: transform 0.5s;
+    display: block;
+    /* overflow: hidden; */
+  }
+
+  .about .aboutPage .aboutItem:hover img {
+    transform: scale(1.1);
+  }

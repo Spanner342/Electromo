@@ -14,21 +14,21 @@ function Nav() {
         <img src={home} alt="#" />
         <span>Home</span>
       </NavLink>
-      <a href="#">
+      <NavLink to="/About/">
         <img src={wish} alt="#" />
-        <span>Wish list (0)</span>
-      </a>
-      <a href="#">
+        <span>About Us</span>
+      </NavLink>
+      <NavLink to="/Privacy">
         <img src={user} alt="#" />
-        <span>My Account</span>
-      </a>
-      <a href="#">
+        <span>Privacy Policy</span>
+      </NavLink>
+      {/* <a href="#">
         <img src={logIn} alt="#" />
         <span>Log In</span>
-      </a>
+      </a> */}
       <a href="#">
         <img src={checkout} alt="#" />
-        <span>Checkout</span>
+        <span>Contact Us</span>
       </a>
     </nav>
   );

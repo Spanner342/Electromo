@@ -86,8 +86,8 @@ function ProductPreview(props) {
           }}
           className={"cartBtn" + props.added}
         ></button>
-        <button className={styles.wishBtn}></button>
-        <button className={styles.compareBtn}></button>
+        {/* <button className={styles.wishBtn}></button>
+        <button className={styles.compareBtn}></button> */}
         <button
           onClick={() => {
             setViewActive(true);

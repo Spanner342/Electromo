@@ -5,6 +5,8 @@ import Footer from "./components/Footer/Footer";
 import Main from './components/Main/Main';
 import Products from './components/Products/Products';
 import { ViewWidget } from './components/ViewWidget/ViewWidget';
+import About from './components/About/About';
+import Privacy from './components/Privacy/Privacy';
 
 
 
@@ -82,6 +84,8 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Main/>}></Route>
 				<Route path="/product/:id/" element={<Products />}></Route>
+				<Route path='/About/' element={<About />}></Route>
+				<Route path='/Privacy/' element={<Privacy />}></Route>
 			</Routes>
 			<Footer/>
 			<ViewWidget />

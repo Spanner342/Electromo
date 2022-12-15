@@ -1,10 +1,11 @@
-import { useContext, useRef, useState } from "react";
+import { useContext, useRef } from "react";
 import styles from "./Catalog.module.css";
 import { ProductPreview } from "../Products/Products";
 import { AppContext } from "../../App";
 
 function Catalog() {
-  const { products, ulElem, cart, addCart, prodElem } = useContext(AppContext);
+  const { products, setProducts, ulElem, cart, addCart, prodElem } =
+    useContext(AppContext);
 
   const btnNextElem = useRef();
 

@@ -1,0 +1,66 @@
+.privacy {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.privacy .bar {
+    border: 1px solid #eee;
+    padding: 1% 1%;
+    color: #888;
+  }
+  
+  .privacy .bar img {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .privacy .bar .barArrow,
+  .barName {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .privacy .bar .barName {
+    font-size: 12px;
+  }
+  
+  .privacy .bar a {
+    text-decoration: none;
+    color: #888;
+  }
+
+  .privacy .privacyInfo .infoList {
+    list-style-type: none;
+    counter-reset: item;
+  }
+
+  .privacy .privacyInfo .infoList .infoElem h4 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 35px;
+    padding-left: 20px;
+  }
+
+  .privacy .privacyInfo .infoList .infoElem h4:before{
+    content: counter(item) ; 
+    counter-increment: item;
+    display: inline-block;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #34b1da;
+    font-family: Arial;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+
+  .privacy .privacyInfo .infoList .infoElem p {
+    color: #888;
+  }
+
+  
